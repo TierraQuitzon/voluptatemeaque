@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "name": "@react-web3-wallet/site",
+  "description": "web3-wallet website",
+  "author": "logan <logan.luo@crypto.com>",
+  "version": "3.0.0",
+  "scripts": {
+    "dev": "next dev -p 3003",
+    "start": "next start -p 3003",
+    "build": "next build",
+    "export": "next build && next export",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "ethers": "6.11.1",
+    "@chakra-ui/icons": "^2.0.9",
+    "@chakra-ui/react": "^2.3.1",
+    "@chakra-ui/theme-tools": "^2.0.11",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@types/react-syntax-highlighter": "^15.5.5",
+    "@react-web3-wallet/bitget-wallet": "workspace:^",
+    "@react-web3-wallet/brave-wallet": "workspace:*",
+    "@react-web3-wallet/coinbase-wallet": "workspace:*",
+    "@react-web3-wallet/cryptocom-desktop-wallet": "workspace:*",
+    "@react-web3-wallet/defiwallet": "workspace:*",
+    "@react-web3-wallet/imtoken": "workspace:*",
+    "@react-web3-wallet/metamask": "workspace:*",
+    "@react-web3-wallet/react": "workspace:*",
+    "@react-web3-wallet/trust-wallet": "workspace:*",
+    "@react-web3-wallet/walletconnect": "workspace:*",
+    "@react-web3-wallet/xdefi": "workspace:*",
+    "framer-motion": "^7.2.1",
+    "markdown-toc": "^1.2.0",
+    "next": "12.2.5",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "react-markdown": "^8.0.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "remark-gfm": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/react-dom": "18.0.6",
+    "eslint-config-next": "12.2.5"
+  }
+}

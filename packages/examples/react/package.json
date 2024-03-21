@@ -1,0 +1,32 @@
+{
+  "name": "@react-web3-wallet/example-react",
+  "description": "web3-wallet react example",
+  "author": "logan <logan.luo@crypto.com>",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {
+    "dev": "next dev -p 3333",
+    "start": "next start -p 3333",
+    "build": "next build",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "ethers": "6.11.1",
+    "@react-web3-wallet/core": "workspace:*",
+    "@react-web3-wallet/coinbase-wallet": "workspace:*",
+    "@react-web3-wallet/defiwallet": "workspace:*",
+    "@react-web3-wallet/metamask": "workspace:*",
+    "@react-web3-wallet/react": "workspace:*",
+    "@react-web3-wallet/walletconnect": "workspace:*",
+    "@react-web3-wallet/imtoken": "workspace:*",
+    "@react-web3-wallet/brave-wallet": "workspace:*",
+    "@react-web3-wallet/trust-wallet": "workspace:*",
+    "@react-web3-wallet/cryptocom-desktop-wallet": "workspace:*",
+    "next": "12.2.5",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "18.0.6",
+    "eslint-config-next": "12.2.5"
+  }
+}
